@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6e6;
+    height: 2000px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    height: 100%;
+    width: 50%;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+.wrapper{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.lateral{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    background-color: blue;
+}
+
+.lateral > span {
+    font-size: 45%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    background-color: green;
+}
+
+.limewax {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.limewaximg {
+    width: 40%;
+    object-fit: contain;
+}
+
+.limewaximg:first-child{
+    margin-right: 5px;
+}
+
+.titlelimewax{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 10px;
+}
